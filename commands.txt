@@ -1,0 +1,3 @@
+!git clone https://github.com/yzheng51/image-processing.git
+!cd image-processing/; mkdir build; cd build/; cmake ..; make
+!cd image-processing/; ./bin/mosaic 16 CUDA -i ./images/sample.ppm -o output.ppm
